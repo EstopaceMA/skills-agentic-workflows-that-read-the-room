@@ -38,10 +38,10 @@ safe-outputs:
    official sources, cite the source links, and follow Mona's editorial notes.
 4. Update only `site/content/github-info.md`, keeping summaries short and
    practical and preserving useful existing content.
-5. If the page needs a meaningful update, use the create-pull-request safe output
-   to propose the changes for Mona's manual review. Summarize the changes and
-   link their sources in the pull request. Never write directly to the default
-   branch or merge the pull request.
+5. If the page needs a meaningful update, open a pull request for Mona to review
+   using the create-pull-request safe output. Summarize the changes and link
+   their sources in the pull request. Never write directly to the default branch
+   or merge the pull request.
 
 If there are no relevant changes, call `noop` with a brief explanation. If either
 required page cannot be fetched or the required repository files cannot be
